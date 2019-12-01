@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ladder</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="ladder.css">
+  </head>
+
+  <body>
+    <div id="main">
+        <div class="center">
+            <h1>사다리 타기</h1>
+            <p>참가할 인원</p>
+            <span>
+            <button onclick="minus()" id="m" style="display: inline;">-</button>
+            <h1 id="residents" style="display: inline;">2</h1>
+            <button onclick="plus()" id="p" style="display: inline;">+</button>
+            </span>
+        </div>
+        <img src="start.png" alt="시작!" width="70">
+      <button class="trigger" onclick="ladder()">시작</button>
+    </div>
+    <script src="ladder.js"></script>
+  </body>
+</html>
